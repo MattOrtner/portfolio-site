@@ -1,19 +1,36 @@
 import Link from "next/link";
+
 const NavBar = () => {
   return (
-    <div className="mb-16">
-      <ul className="flex gap-10 h-12  justify-center text-center">
-        <li className="w-40 bg-NAVY flex justify-center rounded-l-2xl items-center text-slate-200 text-lg">
-          <Link href="/">Home</Link>
-        </li>
-        <li className="w-40 bg-NAVY flex justify-center items-center text-slate-200 text-lg">
-          <Link href="/about/">About</Link>
-        </li>
-        <li className="w-40 bg-NAVY flex justify-center  rounded-r-2xl items-center text-slate-200 text-lg">
-          <Link href="/contact/">Contact</Link>
-        </li>
+    <div className="mb-8">
+      <ul className="flex h-14 gap-10 justify-center text-center">
+        <Link
+          className="w-40 cursor-pointer bg-NAVY flex justify-center rounded-l-3xl items-center
+          text-BLUE_T text-lg border-8 border-BLUE_T border-double shadow-black shadow-md hover:text-slate-40
+          hover:bg-OLIVE hover:border-OLIVE_T hover:rounded transition-all duration-300 ease-linear"
+          href="/"
+        >
+          Home
+        </Link>
+        <Link
+          className="w-40 cursor-pointer flex justify-center items-center bg-NAVY text-BLUE_T text-lg 
+          border-8 border-BLUE_T border-double shadow-black shadow-md hover:text-slate-100
+          hover:bg-OLIVE hover:border-OLIVE_T hover:rounded-3xl transition-all duration-300 ease-linear"
+          href="/about/"
+        >
+          About
+        </Link>
+        <Link
+          className="w-40 cursor-pointer flex justify-center items-center bg-NAVY text-BLUE_T text-lg 
+          border-8 border-BLUE_T border-double shadow-black shadow-md rounded-r-3xl hover:text-slate-100
+          hover:bg-OLIVE hover:border-OLIVE_T hover:rounded transition-all duration-300 ease-linear"
+          href="/contact/"
+        >
+          Contact
+        </Link>
       </ul>
     </div>
   );
 };
+
 export default NavBar;
