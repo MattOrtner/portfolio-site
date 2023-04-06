@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import profilePhoto from "../public/testNumbertwo.png";
+// import profilePhoto from "../public/testNumbertwo.png";
+import profilePhoto from "../public/testNumberTwo.jpg";
 import NavBar from "./components/NavBar";
 import { useState } from "react";
 
