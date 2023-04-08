@@ -2,8 +2,8 @@ import DevIcon from "./DevIcon";
 
 const DevIconGroup = () => {
   return (
-    <div className="flex-3 grid grid-cols-2 gap-3">
-      <div>
+    <div className="grid grid-cols-2 gap-4">
+      <div className="grid gap-4">
         <DevIcon
           url={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -23,7 +23,7 @@ const DevIconGroup = () => {
           alt={"Next.js Icon"}
         />
       </div>
-      <div className="gap-1 border-b-indigo-500">
+      <div className="grid gap-4">
         <DevIcon
           url={
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
