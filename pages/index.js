@@ -9,27 +9,31 @@ import DevIconGroup from "./components/DevIconGroup";
 
 export default function Home() {
   return (
-    <div className=" flex-col h-screen fjac gap-10 bg-TAN_D font-mono">
-      <NavBar />
-      <div className="flex gap-16">
-        <div className="fjac">
-          <Image
-            src={profilePhoto}
-            alt="An image of Matthew Ortner"
-            className="rounded-full shadow-black shadow-2xl"
-            style={{ width: "100%" }}
-            priority
-          />
-        </div>
-        <div className="fjac flex-col gap-8">
-          <h1 className="text-3xl text-OLIVE_T rounded-l-[36px]">
-            Matthew Ortner
-          </h1>
-          <div
-            className="bg-NAVY p-4 text-lg text-NAVY_T border-4 border-BLUE_T 
+    <div className="h-screen bg-TAN_D font-mono">
+      <div className="h-96">
+        <NavBar />
+      </div>
+      <div className="fjac gap-10">
+        <div className="flex flex-col gap-16">
+          <div className="fjac">
+            <Image
+              src={profilePhoto}
+              alt="An image of Matthew Ortner"
+              className="rounded-l-[36px] shadow-black shadow-2xl"
+              height={300}
+              priority
+            />
+          </div>
+          <div className="flex flex-col gap-2">
+            <h1 className="text-3xl text-OLIVE_T text-center rounded-l-[36px]">
+              Matthew Ortner
+            </h1>
+            <div
+              className="bg-NAVY p-4 text-lg text-NAVY_T text-center border-4 border-BLUE_T 
                 border-double rounded-l-[36px] shadow-black shadow-md"
-          >
-            Full-Stack Developer
+            >
+              Full-Stack Developer
+            </div>
           </div>
         </div>
         <DevIconGroup />
