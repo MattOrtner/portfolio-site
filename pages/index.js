@@ -19,20 +19,32 @@ export default function Home() {
             <Image
               src={profilePhoto}
               alt="An image of Matthew Ortner"
-              className="rounded-l-[36px] shadow-black shadow-2xl"
+              className="rounded-[36px] shadow-black shadow-2xl"
               height={300}
               priority
             />
           </div>
           <div className="flex flex-col gap-2">
-            <h1 className="text-3xl text-OLIVE_T text-center rounded-l-[36px]">
-              Matthew Ortner
-            </h1>
-            <div
-              className="bg-NAVY p-4 text-lg text-NAVY_T text-center border-4 border-BLUE_T 
-                border-double rounded-l-[36px] shadow-black shadow-md"
-            >
-              Full-Stack Developer
+            <div className="flex justify-start pl-3">
+              <h1 className="text-3xl text-OLIVE_T text-center">
+                Matthew Ortner
+              </h1>
+            </div>
+            <div className="flex justify-end p-4">
+              <div
+                className="bg-NAVY p-4 text-lg text-NAVY_T text-center 
+              border-b-8 border-r-8 border-double border-NAVY_T cursor-pointer
+              shadow-black shadow-lg w-[75%] rounded-2xl  hover:border-b-0 hover:mb-8
+              hover:border-r-0 hover:rounded-none transition-all duration-100 ease-linear"
+              >
+                {/* <div
+                className="bg-NAVY p-4 text-lg text-NAVY_T text-center 
+              border-b-8 border-r-8 border-double border-NAVY_T cursor-pointer
+              shadow-black shadow-lg w-[75%] rounded-2xl  hover:border-b-0 hover:mb-8
+              hover:border-r-0 hover:rounded-none transition-all duration-100 ease-linear"
+              > */}
+                Full-Stack Developer
+              </div>
             </div>
           </div>
         </div>
