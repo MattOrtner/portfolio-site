@@ -15,3 +15,9 @@ Image {
     background-color: red;
   }
 }*/
+
+.fjac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
