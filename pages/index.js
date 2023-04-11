@@ -10,7 +10,7 @@ import DevIconGroup from "./components/DevIconGroup";
 export default function Home() {
   return (
     <div className="h-screen bg-TAN_D font-mono">
-      <div className="h-96">
+      <div className="">
         <NavBar />
       </div>
       <div className="fjac gap-10">

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <div className="pt-40">
+    <div className="p-20 pb-24">
       <ul className="flex h-14 gap-10 justify-center text-center">
         <Link
           className="w-40 cursor-pointer bg-NAVY fjac text-NAVY_T text-lg
