@@ -1,12 +1,12 @@
 import NavBar from "./components/NavBar";
 
-const Contact = () => {
+const Projects = () => {
   return (
     <div className="h-screen bg-TAN_D font-mono">
       <NavBar />
-      <h1>Contact Page</h1>
+      <h1>Projects Page</h1>
     </div>
   );
 };
 
-export default Contact;
+export default Projects;

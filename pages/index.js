@@ -2,10 +2,11 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 
-import profilePhoto from "../assets/testNumberTwo.jpg";
+import profilePhoto from "../public/testNumberTwo.jpg";
 import NavBar from "./components/NavBar";
 import SocialIcon from "./components/SocialIcon";
 import DevIconGroup from "./components/DevIconGroup";
+import FullStackButton from "./components/buttons/FullStackButton";
 
 export default function Home() {
   return (
@@ -31,14 +32,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="flex justify-end p-4">
-              <div
-                className="bg-NAVY p-4 text-lg text-NAVY_T text-center 
-              border-b-8 border-r-8 border-double border-NAVY_T cursor-pointer
-              shadow-black shadow-lg w-[75%] rounded-2xl  hover:border-b-0 hover:mb-8
-              hover:border-r-0 hover:rounded-none transition-all duration-100 ease-linear"
-              >
-                Full-Stack Developer
-              </div>
+              <FullStackButton />
             </div>
           </div>
         </div>
