@@ -32,20 +32,19 @@ const About = () => {
             src={currentImage}
             width={500}
             height={500}
-            className="w-[80%] relative z-10"
+            className="w-[80%] relative"
           />
         </div>
         <div className="fjac flex-col gap-3">
-          <div className="w-[50%] text-center bg-slate-300 p-4 z-30 rotate-2 shadow-xl shadow-black rounded-md">
-            I love to create. Witnessing the evolution of an idea from the
-            inceptiont to completion is incredibly fullfilling.
+          <div className="w-[50%] text-center bg-slate-500 p-4 z-10  shadow-md shadow-black rounded-md">
+            I love to create.
           </div>
-          <div className="w-[50%] bg-slate-400 p-4 pl-10 z-20 -rotate-2 shadow-lg shadow-black rounded-md">
+          <div className="w-[50%] bg-slate-400 p-4 pl-10 z-20 shadow-lg shadow-black rounded-md">
             0 - 1.
           </div>
-          <div className="w-[50%] text-center bg-slate-500 p-4 z-10 rotate-2 shadow-md shadow-black rounded-md">
-            I love to create. Witnessing the evolution of an idea from the
-            inceptiont to completion is incredibly fullfilling.
+          <div className="w-[50%] text-center bg-slate-300 p-4 z-30  shadow-xl shadow-black rounded-md">
+            Witnessing the evolution of an idea from the inceptiont to
+            completion is incredibly fullfilling.
           </div>
         </div>
         <VitruvianCarousel
@@ -54,6 +53,7 @@ const About = () => {
           sideHandler={sideHandler}
         />
       </div>
+      <div className="h-[50%] mt-24 w-[65%] mr-auto ml-52 rounded-lg bg-NAVY"></div>
     </div>
   );
 };
