@@ -19,9 +19,10 @@ export default function Home() {
           <div className="fjac">
             <Image
               src={profilePhoto}
-              alt="An image of Matthew Ortner"
-              className="rounded-[36px] shadow-black shadow-2xl"
+              alt="An image of Matthew, the developer"
+              className="shadow-black shadow-2xl z-10"
               height={300}
+              style={{ zIndex: "3" }}
               priority
             />
           </div>
