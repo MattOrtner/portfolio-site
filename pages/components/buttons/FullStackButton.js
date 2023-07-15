@@ -17,10 +17,10 @@ const FullStackButton = () => {
       onMouseLeave={unHandleIt}
       className="bg-NAVY p-4 text-lg text-NAVY_T text-center 
               border-b-8 border-r-8 border-double border-NAVY_T cursor-pointer
-              shadow-black shadow-lg w-[75%] rounded-2xl hover:bg-slate-300
-              hover:text-NAVY transition-all duration-200 ease-linear"
+              shadow-black shadow-lg rounded-2xl hover:bg-BLUE_T  
+              hover:text-NAVY transition-all w-[257px] duration-200 ease-linear"
     >
-      {buttonHovered ? "Checkout my projects" : "Full-Stack Developer"}
+      {buttonHovered ? "Always Learning" : "Full-Stack Developer"}
     </Link>
   );
 };

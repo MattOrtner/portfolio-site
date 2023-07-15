@@ -2,7 +2,7 @@ import DevIcon from "./DevIcon";
 
 const DevIconGroup = () => {
   return (
-    <div className="flex flex-wrap w-[500px] gap-4">
+    <div className="flex flex-wrap max-w-[500px] gap-4">
       <DevIcon
         url={
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
