@@ -1,10 +1,9 @@
 import { useState } from "react";
 import Image from "next/image";
-import NavBar from "./components/NavBar";
-import FrontImage from "../public/front.jpg";
-import BackImage from "../public/back.jpg";
-import SideImage from "../public/side.jpg";
-import VitruvianCarousel from "./components/VitruvianCarousel";
+import FrontImage from "../../public/front.jpg";
+import BackImage from "../../public/back.jpg";
+import SideImage from "../../public/side.jpg";
+import VitruvianCarousel from "./VitruvianCarousel";
 
 const AboutSection = () => {
   const [currentImage, setCurrentImage] = useState(FrontImage);

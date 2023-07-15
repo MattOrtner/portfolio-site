@@ -1,12 +1,11 @@
-import Link from "next/link";
-import Head from "next/head";
 import Image from "next/image";
-
 import profilePhoto from "../public/testNumberTwo.jpg";
+
 import SocialIcon from "./components/SocialIcon";
 import DevIconGroup from "./components/DevIconGroup";
 import FullStackButton from "./components/buttons/FullStackButton";
-import AboutSection from "./about";
+
+import AboutSection from "./components/AboutSection";
 
 export default function Home() {
   return (
