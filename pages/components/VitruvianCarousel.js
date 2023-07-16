@@ -4,8 +4,8 @@ ImageHoverTrigger;
 const VitruvianCarousel = ({ frontHandler, backHandler, sideHandler }) => {
   return (
     <div
-      className="inline-grid grid-rows-6 w-full h-full absolute 
-                    place-items-stretch z-40"
+      className="inline-grid grid-rows-6 w-full h-[85%] absolute 
+                place-items-stretch z-40 max-[400px]:hidden"
     >
       <ImageHoverTrigger
         overHandler={sideHandler}
