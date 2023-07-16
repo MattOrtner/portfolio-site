@@ -20,25 +20,25 @@ const AboutSection = () => {
 
   return (
     <div>
-      <div className="flex gap-16">
+      <div className="flex gap-16 max-[400px]:bg-yellow">
         <VitruvianCarousel
           frontHandler={frontHandler}
           backHandler={backHandler}
           sideHandler={sideHandler}
         />
-        <div className="flex w-[50%] items-end flex-col z-10 gap-10 font-mono">
-          <div className="w-[30%] text-center bg-slate-500 p-4 shadow-xl shadow-black rounded-md">
+        <div className="flex w-[50%] items-end flex-col z-10 gap-10 font-mono max-[400px]:w-[100%] max-[400px]:items-center">
+          <div className="w-[30%] text-center bg-slate-500 p-4 shadow-xl shadow-black rounded-md max-[400px]:w-[55%]">
             I love to create.
           </div>
-          <div className="w-[45%] bg-slate-400 p-4 text-center shadow-lg shadow-black rounded-md">
-            I love the evolution.
-          </div>
-          <div className="w-[60%] text-center bg-slate-300 p-4 shadow-md shadow-black rounded-md">
-            Watching the idea moving from inception to completion is incredibly
+          <div className="w-[45%] bg-slate-400 p-4 text-center shadow-lg shadow-black rounded-md max-[400px]:w-[75%]">
+            Watching an idea evolve from inception to completion is incredibly
             fullfilling.
           </div>
+          <div className="w-[60%] text-center bg-slate-300 p-4 shadow-md shadow-black rounded-md max-[400px]:w-[55%]">
+            I love it.
+          </div>
         </div>
-        <div className="w-[50%]">
+        <div className="w-[50%] max-[400px]:hidden">
           <div className="rotate-6">
             <Image
               alt="Matthew Ortner"
