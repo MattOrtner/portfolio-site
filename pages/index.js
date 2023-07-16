@@ -12,19 +12,21 @@ export default function Home() {
     <div className="bg-TAN_D font-mono pt-24 w-screen overflow-hidden pb-10">
       <div className="fjac gap-10 max-[400px]:flex-col">
         <div className="flex flex-col gap-16">
-          <Image
-            src={profilePhoto}
-            alt="An image of Matthew, the developer"
-            className="shadow-black shadow-2xl rounded-3xl z-10"
-            height={300}
-            width={"auto"}
-            style={{ zIndex: "3" }}
-            priority
-          />
-          <div className="flex flex-col gap-4">
+          <div className="max-[400px]:mr-3 max-[400px]:ml-3">
+            <Image
+              src={profilePhoto}
+              alt="An image of Matthew, the developer"
+              className="shadow-black shadow-2xl rounded-3xl z-10"
+              height={300}
+              width={"auto"}
+              priority
+            />
+          </div>
+          <div className="flex flex-col items-center gap-4">
             <h1 className="text-4xl text-OLIVE_T text-center">
               Matthew Ortner
             </h1>
+            <div className="text-xl">from dance to dev</div>
           </div>
         </div>
         <DevIconGroup />
