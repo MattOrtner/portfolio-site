@@ -3,7 +3,7 @@ import profilePhoto from "../public/testNumberTwo.jpg";
 import DevIconGroup from "./components/DevIconGroup";
 import FullStackButton from "./components/buttons/FullStackButton";
 import AboutSection from "./components/AboutSection";
-import SocialPageBreak from "./components/SocialPageBreak";
+import SocialCluster from "./components/SocialCluster";
 
 export default function Home() {
   return (
@@ -29,8 +29,8 @@ export default function Home() {
         </div>
         <DevIconGroup />
       </div>
-      <div className="fjac gap-6 m-20 max-[400px]:grid">
-        <SocialPageBreak />
+      <div className="fjac gap-6 m-20 max-w-[50%] ml-auto mr-auto max-[600px]:grid">
+        <SocialCluster />
         <div className="bg-gray-700 w-[65%] h-[.25rem] m-auto"></div>
         <div className="flex justify-end">
           <FullStackButton />

@@ -19,14 +19,14 @@ const AboutSection = () => {
   };
 
   return (
-    <div>
-      <div className="flex gap-16 max-[400px]:bg-yellow">
+    <div className="fjac w-full">
+      <div className="flex gap-16 justify-center w-[60%]">
         <VitruvianCarousel
           frontHandler={frontHandler}
           backHandler={backHandler}
           sideHandler={sideHandler}
         />
-        <div className="flex w-[50%] items-end flex-col z-10 gap-10 font-mono max-[400px]:w-[100%] max-[400px]:items-center">
+        <div className="flex  w-[50%] items-end flex-col z-10 gap-10 font-mono max-[400px]:w-[100%] max-[400px]:items-center">
           <div className="w-[30%] text-center bg-slate-500 p-4 shadow-xl shadow-black rounded-md max-[400px]:w-[55%]">
             I love to create.
           </div>
@@ -43,7 +43,7 @@ const AboutSection = () => {
             <Image
               alt="Matthew Ortner"
               src={currentImage}
-              width={500}
+              width={550}
               className="relative"
             />
           </div>

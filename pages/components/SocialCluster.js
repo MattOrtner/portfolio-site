@@ -1,8 +1,8 @@
 import SocialIcon from "./SocialIcon";
 
-const SocialPageBreak = () => {
+const SocialCuster = () => {
   return (
-    <div className="flex gap-7 justify-around max-width-6xl max-[400px]:w-[250px]">
+    <div className="flex gap-7 justify-around max-[400px]:w-[250px]">
       <SocialIcon
         imageUrl={
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -20,4 +20,4 @@ const SocialPageBreak = () => {
     </div>
   );
 };
-export default SocialPageBreak;
+export default SocialCuster;
