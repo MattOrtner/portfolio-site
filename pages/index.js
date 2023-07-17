@@ -1,11 +1,9 @@
 import Image from "next/image";
 import profilePhoto from "../public/testNumberTwo.jpg";
-
-import SocialIcon from "./components/SocialIcon";
 import DevIconGroup from "./components/DevIconGroup";
 import FullStackButton from "./components/buttons/FullStackButton";
-
 import AboutSection from "./components/AboutSection";
+import SocialPageBreak from "./components/SocialPageBreak";
 
 export default function Home() {
   return (
@@ -32,22 +30,7 @@ export default function Home() {
         <DevIconGroup />
       </div>
       <div className="fjac gap-6 m-20 max-[400px]:grid">
-        <div className="flex gap-7 justify-around max-[400px]:w-[250px]">
-          <SocialIcon
-            imageUrl={
-              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            }
-            linkUrl={"https://github.com/MattOrtner"}
-            alt={"GitHub Icon and Link"}
-          />
-          <SocialIcon
-            imageUrl={
-              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-            }
-            linkUrl={"https://www.linkedin.com/in/matthewortner/"}
-            alt={"LinkedIn Icon and Link"}
-          />
-        </div>
+        <SocialPageBreak />
         <div className="bg-gray-700 w-[65%] h-[.25rem] m-auto"></div>
         <div className="flex justify-end">
           <FullStackButton />
