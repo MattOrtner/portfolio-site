@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const FullStackButton = () => {
+const PortfolioButton = () => {
   const [buttonHovered, setButtonHovered] = useState(false);
 
   const handleIt = () => {
@@ -20,8 +20,8 @@ const FullStackButton = () => {
               shadow-black shadow-lg rounded-2xl hover:bg-BLUE_T  
               hover:text-NAVY transition-all w-[257px] duration-200 ease-linear"
     >
-      {buttonHovered ? "Always Learning" : "Full-Stack Developer"}
+      {buttonHovered ? "Always Learning" : "Projects"}
     </Link>
   );
 };
-export default FullStackButton;
+export default PortfolioButton;

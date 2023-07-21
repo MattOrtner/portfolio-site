@@ -26,11 +26,11 @@ const AboutSection = () => {
           backHandler={backHandler}
           sideHandler={sideHandler}
         />
-        <div className="flex  w-[50%] items-end flex-col z-10 gap-10 font-mono max-[400px]:w-[100%] max-[400px]:items-center">
-          <div className="w-[30%] text-center bg-slate-500 p-4 shadow-xl shadow-black rounded-md max-[400px]:w-[55%]">
+        <div className="flex  w-[50%] items-end flex-col z-10 gap-10 font-mono max-[900px]:w-[100%] max-[400px]:items-center">
+          <div className="w-[50%] text-center bg-slate-500 p-4 shadow-xl shadow-black rounded-md max-[400px]:w-[55%]">
             I love to create.
           </div>
-          <div className="w-[45%] bg-slate-400 p-4 text-center shadow-lg shadow-black rounded-md max-[400px]:w-[75%]">
+          <div className="w-[80%] bg-slate-400 p-4 text-center shadow-lg shadow-black rounded-md max-[400px]:w-[75%]">
             Watching an idea evolve from inception to completion is incredibly
             fullfilling.
           </div>

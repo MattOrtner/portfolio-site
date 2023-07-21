@@ -1,7 +1,7 @@
 import Image from "next/image";
-import profilePhoto from "../public/testNumberTwo.jpg";
+import profilePhoto from "../public/MainPhoto.jpg";
 import DevIconGroup from "./components/DevIconGroup";
-import FullStackButton from "./components/buttons/FullStackButton";
+import PortfolioButton from "./components/buttons/PortfolioButton";
 import AboutSection from "./components/AboutSection";
 import SocialCluster from "./components/SocialCluster";
 
@@ -24,16 +24,21 @@ export default function Home() {
             <h1 className="text-4xl text-OLIVE_T text-center">
               Matthew Ortner
             </h1>
-            <div className="text-xl">from dance to dev</div>
+            <div className="text-xl">Full-Stack Developer</div>
+            <div className="flex gap-4 items-center">
+              <div className="text-3xl">🕺</div>
+              <div className="text-l"> Dance to Dev</div>
+              <div className="text-3xl">💻</div>
+            </div>
           </div>
         </div>
         <DevIconGroup />
       </div>
-      <div className="fjac gap-6 m-20 max-w-[50%] ml-auto mr-auto max-[600px]:grid">
+      <div className="fjac gap-6 m-20 max-w-[75%] ml-auto mr-auto max-[600px]:grid">
         <SocialCluster />
         <div className="bg-gray-700 w-[65%] h-[.25rem] m-auto"></div>
         <div className="flex justify-end">
-          <FullStackButton />
+          <PortfolioButton />
         </div>
       </div>
       <AboutSection />

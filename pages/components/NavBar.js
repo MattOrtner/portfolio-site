@@ -2,9 +2,9 @@ import NavButton from "./buttons/NavButton";
 
 const NavBar = () => {
   return (
-    <div className="p-20 pb-24">
-      <ul className="flex h-14 gap-10 justify-center text-center">
-        <NavButton href={"/"} buttonText={"Home"} />
+    <div className="pt-6 pb-14">
+      <ul className="flex h-14 ">
+        <NavButton href={"/"} buttonText={"Back"} />
       </ul>
     </div>
   );
