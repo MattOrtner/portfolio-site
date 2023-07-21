@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <DevIconGroup />
       </div>
-      <div className="fjac gap-6 m-20 max-w-[75%] ml-auto mr-auto max-[600px]:grid">
+      <div className="fjac gap-6 m-20 mb-10 max-w-[75%] ml-auto mr-auto max-[600px]:grid">
         <SocialCluster />
         <div className="bg-gray-700 w-[65%] h-[.25rem] m-auto"></div>
         <div className="flex justify-end">
