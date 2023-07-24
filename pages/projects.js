@@ -5,7 +5,7 @@ import PortfolioPhoto from "../public/PortfolioPhoto.png";
 
 const Projects = () => {
   return (
-    <div className="h-full w-screen bg-TAN_D font-mono flex items-center flex-col gap-2">
+    <div className="h-screen w-screen bg-TAN_D font-mono flex items-center flex-col gap-2 max-[400px]:h-full">
       <div className="w-[100%] flex justify-end mr-96">
         <NavBar />
       </div>
