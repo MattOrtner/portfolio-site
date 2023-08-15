@@ -7,7 +7,7 @@ import SocialCluster from "./components/SocialCluster";
 
 export default function Home() {
   return (
-    <div className="bg-TAN_D font-mono pt-24 w-screen overflow-hidden pb-10">
+    <div className="bg-TAN_D font-mono pt-24 w-screen overflow-hidden pb-24">
       <div className="fjac gap-10 max-[400px]:flex-col">
         <div className="flex flex-col gap-16">
           <div className="max-[400px]:mr-3 max-[400px]:ml-3">
