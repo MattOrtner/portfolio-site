@@ -29,9 +29,21 @@ const DevIconGroup = () => {
       />
       <DevIcon
         url={
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+        }
+        alt={"Amazon Web Services Icon"}
+      />
+      <DevIcon
+        url={
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
         }
         alt={"MongoDB Icon"}
+      />
+      <DevIcon
+        url={
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+        }
+        alt={"Express Icon"}
       />
       <DevIcon
         url={
