@@ -1,9 +1,9 @@
 const AboutSection = () => {
   return (
-    <div className="fjac w-full">
-      <div className="flex gap-16 justify-center w-[75%] max-[400px]:w-[100%]">
+    <div className="fjac">
+      <div className="flex gap-16 justify-center w-[60%] max-[400px]:w-[100%]">
         <div
-          className="flex  w-[50%] items-end justify-center flex-col z-10 
+          className="flex flex-1 items-end justify-center flex-col z-10 
           gap-10 font-mono max-[900px]:w-[100%] max-[400px]:items-center
           max-[400px]:gap-4 max-[400px]:hidden"
         >
@@ -27,7 +27,7 @@ const AboutSection = () => {
             I love it.
           </div>
         </div>
-        <div className="w-[90%]  flex justify-center items-center">
+        <div className="flex-1 fjac ">
           <div>
             As a web developer and passionate dancer, I bring a unique
             perspective to my work. <br /> <br /> My background in dance has

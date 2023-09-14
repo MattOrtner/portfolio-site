@@ -5,15 +5,15 @@ import PortfolioPhoto from "../public/PortfolioPhoto.png";
 
 const Projects = () => {
   return (
-    <div className="p-4 w-screen bg-TAN_D font-mono flex items-center flex-col gap-2 max-[400px]:h-full">
+    <div className="p-4 w-screen h-screen bg-TAN_D font-mono flex items-center flex-col gap-2 max-[400px]:h-full">
       <div className="w-[100%] flex justify-end mr-96">
         <NavBar />
       </div>
-      <div className="flex gap-14 max-[400px]:grid max-[400px]:p-3 max-[400px]:gap-2">
+      <div className="flex gap-4 max-[400px]:grid max-[400px]:p-3 max-[400px]:gap-2">
         <Image
           src={EtsyScreenShot}
           alt="A screen shot of his Etsy Clone Project"
-          className="shadow-black shadow-2xl rounded-3xl"
+          className="shadow-black shadow-2xl rounded-3xl border-blue-950 border-4"
           width={650}
           height={"auto"}
           priority
@@ -53,7 +53,7 @@ const Projects = () => {
         <Image
           src={PortfolioPhoto}
           alt="A screen shot of his Etsy Clone Project"
-          className="shadow-black shadow-2xl rounded-3xl "
+          className="shadow-black shadow-2xl rounded-3xl border-blue-950 border-4"
           width={650}
           height={"auto"}
           priority
