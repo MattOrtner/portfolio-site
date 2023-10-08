@@ -10,11 +10,6 @@ Image {
   filter: gray;
   -webkit-filter: grayscale(1);
 }
-/*@media (prefers-color-scheme: dark) {
-  body {
-    background-color: red;
-  }
-}*/
 
 .fjac {
   display: flex;
