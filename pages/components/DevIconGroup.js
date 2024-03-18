@@ -27,9 +27,10 @@ const DevIconGroup = () => {
         }
         alt={"Node Icon"}
       />
+
       <DevIcon
         url={
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
         }
         alt={"Amazon Web Services Icon"}
       />
@@ -47,7 +48,7 @@ const DevIconGroup = () => {
       />
       <DevIcon
         url={
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+          "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
         }
         alt={"Tailwind CSS Icon"}
       />
