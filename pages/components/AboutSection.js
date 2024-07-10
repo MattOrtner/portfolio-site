@@ -28,7 +28,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="flex-1 fjac ">
-          <div>
+          <div className="max-[400px]:text-center max-[400px]:m-4">
             As a web developer and passionate dancer, I bring a unique
             perspective to my work. <br /> <br /> My background in dance has
             instilled in me a love for creativity, attention to detail,

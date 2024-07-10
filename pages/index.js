@@ -7,7 +7,7 @@ import NavButton from "./components/buttons/NavButton";
 
 export default function Home() {
   return (
-    <div className="bg-TAN_D h-screen font-mono py-24 w-screen max-w-[1400px]">
+    <div className="bg-TAN_D h-[100%] font-mono py-24 w-screen max-w-[1400px]">
       <div className="fjac gap-10 max-[400px]:flex-col">
         <div className="flex flex-col gap-16">
           <div className="max-[400px]:mr-3 max-[400px]:ml-3">
