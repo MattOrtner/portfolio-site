@@ -2,7 +2,7 @@ import SocialIcon from "./SocialIcon";
 
 const SocialCuster = () => {
   return (
-    <div className="flex gap-7 justify-around max-[400px]:w-[250px]">
+    <div className="flex flex-col justify-around gap-8 max-sm:flex-row max-sm:justify-center max-sm:pt-4 ">
       <SocialIcon
         imageUrl={
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"

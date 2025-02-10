@@ -5,10 +5,8 @@ import PortfolioPhoto from "../public/PortfolioPhoto.png";
 
 const Projects = () => {
   return (
-    <div className="p-4 w-screen h-screen bg-TAN_D font-mono flex items-center flex-col gap-2 max-w-[1400px] max-[400px]:h-full">
-      <div className="w-[100%] flex justify-end mr-96">
-        <NavBar />
-      </div>
+    <div className="p-4 w-screen h-screen font-mono flex items-center flex-col gap-2 max-w-[1400px] max-[400px]:h-full">
+      <NavBar />
       <a
         href="https://staging.d2yhpv0ems9pvt.amplifyapp.com"
         className="flex gap-4 max-[400px]:grid max-[400px]:p-3 max-[400px]:gap-2"
