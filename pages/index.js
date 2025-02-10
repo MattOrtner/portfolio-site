@@ -13,7 +13,7 @@ export default function Home() {
       <div className="max-w-[1100px] bg-gray-200 rounded-lg sm:p-8">
         <HeaderSection />
         <div className="font-mono">
-          <div className="flex justify-around  max-[400px]:w-[100%] max-md:flex-col">
+          <div className="flex justify-around pb-4 max-[400px]:w-[100%] max-md:flex-col">
             <div className="p-4">
               <Image
                 src={profilePhoto}
