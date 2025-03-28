@@ -1,7 +1,7 @@
 const MyName = () => {
   return (
-    <div className="animate-jump-in pb-8">
-      <div className="absolute flex font-thin">
+    <div className="animate-jump-in pb-14 ">
+      <div className="absolute flex font-thin ">
         <div className="text-8xl">M</div>
         <div className="text-4xl h-[50%">atthew</div>
       </div>
