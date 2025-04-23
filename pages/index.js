@@ -42,23 +42,22 @@ export default function Home() {
         <AboutSection />
       </div>
       <div className="w-screen flex-col mt-2 bg-gray-200 gap-2 max-w-[1500px] max-[400px]:h-full">
-        <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
-          <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-            <h1 className="text-3xl">Clients & Contacts</h1>
-            <ul className="flex justify-evenly flex-col h-[100%] text-lg">
-              <li>React.js</li>
-              <li>Express</li>
-              <li>PostgresSQL</li>
-              <li>Vercel</li>
-              <li>Tailwind CSS</li>
-            </ul>
-          </div>
-          <a
-            href="https://clients-and-contacts.vercel.app/"
-            className="flex max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          href="https://clients-and-contacts.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
+            <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
+              <h1 className="text-3xl">Clients & Contacts</h1>
+              <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+                <li>React.js</li>
+                <li>Express</li>
+                <li>PostgresSQL</li>
+                <li>Vercel</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
             <Image
               src={ClientAndContactsPNG}
               alt="Multiple screenshots of the Clients & Contacts project in a grid"
@@ -67,30 +66,14 @@ export default function Home() {
               height={"auto"}
               priority
             />
-          </a>
-        </div>
-        <div className="m-10 flex gap-6 max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
-          <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-            <h1 className="text-3xl">A Clone of Etsy</h1>
-            <ul className="flex justify-evenly flex-col h-[100%] text-lg">
-              <li>React</li>
-              <li>React Router</li>
-              <li>Styled Components</li>
-              <ul>
-                AWS
-                <li>-Amplify</li>
-                <li>-Cloudformation</li>
-                <li>-DynamoDB</li>
-                <li>-AWS SAM</li>
-              </ul>
-            </ul>
           </div>
-          <a
-            href="https://staging.d2yhpv0ems9pvt.amplifyapp.com"
-            className="flex max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        </a>
+        <a
+          href="https://staging.d2yhpv0ems9pvt.amplifyapp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="m-10 flex gap-6 max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
             <Image
               src={EtsyScreenShot}
               alt="A screen shot of Matt's Etsy Clone Project"
@@ -98,9 +81,24 @@ export default function Home() {
               width={700}
               height={"auto"}
               priority
-            />
-          </a>
-        </div>
+            />{" "}
+            <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
+              <h1 className="text-3xl">A Clone of Etsy</h1>
+              <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+                <li className="mb-2">React</li>
+                <li className="mb-2">React Router</li>
+                <li className="mb-2">Styled Components</li>
+                <ul>
+                  AWS
+                  <li>-Amplify</li>
+                  <li>-Cloudformation</li>
+                  <li>-DynamoDB</li>
+                  <li>-AWS SAM</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </a>
         <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
           <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
             <h1 className="text-3xl">This Portfolio</h1>
