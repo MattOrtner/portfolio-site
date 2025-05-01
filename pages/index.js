@@ -53,7 +53,7 @@ export default function Home() {
               <ul className="flex justify-evenly flex-col h-[100%] text-lg">
                 <li>React.js</li>
                 <li>Express</li>
-                <li>PostgresSQL</li>
+                <li>PostgreSQL</li>
                 <li>Vercel</li>
                 <li>Tailwind CSS</li>
               </ul>
