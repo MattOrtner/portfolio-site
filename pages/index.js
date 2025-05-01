@@ -8,10 +8,12 @@ import DevIconGroup from "./components/DevIconGroup";
 import AboutSection from "./components/AboutSection";
 import SocialCluster from "./components/SocialCluster";
 import MyName from "./components/MyName";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
     <main className="flex font-mono flex-col sm:flex sm:justify-center sm:items-center">
+      <Analytics />
       <div className="w-screen bg-gray-200 sm:p-8 max-sm:py-4 max-w-[1500px]">
         <HeaderSection />
         <div className="flex justify-around pb-4 max-[400px]:w-[100%] max-md:flex-col">
