@@ -52,8 +52,8 @@ export default function Home() {
         >
           <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
             <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-              <h1 className="text-3xl">New Leaf</h1>
-              <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+              <h1 className="text-2xl">New Leaf</h1>
+              <ul className="flex justify-evenly flex-col h-[100%] text-md">
                 <li>React.js</li>
                 <li>Express</li>
                 <li>PostgreSQL</li>
@@ -86,8 +86,8 @@ export default function Home() {
               priority
             />
             <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-              <h1 className="text-3xl">Photo Dreams</h1>
-              <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+              <h1 className="text-2xl">Photo Dreams</h1>
+              <ul className="flex justify-evenly flex-col h-[100%] text-md">
                 <li>Unsplash API</li>
                 <li>Express</li>
                 <li>HTML</li>
@@ -105,8 +105,8 @@ export default function Home() {
         >
           <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
             <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-              <h1 className="text-3xl">A Clone of Etsy</h1>
-              <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+              <h1 className="text-2xl">A Clone of Etsy</h1>
+              <ul className="flex justify-evenly flex-col h-[100%] text-md">
                 <li className="mb-2">React</li>
                 <li className="mb-2">React Router</li>
                 <li className="mb-2">Styled Components</li>
@@ -139,8 +139,8 @@ export default function Home() {
             priority
           />
           <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-            <h1 className="text-3xl">This Portfolio</h1>
-            <ul className="flex justify-evenly flex-col h-[100%] text-lg">
+            <h1 className="text-2xl">This Portfolio</h1>
+            <ul className="flex justify-evenly flex-col h-[100%] text-md">
               <li>Next.js</li>
               <li>Tailwind CSS</li>
               <li>Vercel</li>
