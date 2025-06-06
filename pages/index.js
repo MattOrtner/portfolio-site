@@ -89,10 +89,8 @@ export default function Home() {
               <h1 className="text-2xl">Photo Dreams</h1>
               <ul className="flex justify-evenly flex-col h-[100%] text-md">
                 <li>Unsplash API</li>
+                <li>HTML / CSS / Javascript</li>
                 <li>Express</li>
-                <li>HTML</li>
-                <li>Tailwind CSS</li>
-                <li>Javascript</li>
                 <li>Vercel</li>
               </ul>
             </div>
