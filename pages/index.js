@@ -1,5 +1,5 @@
 import Image from "next/image";
-import EtsyScreenShot from "../public/EtsyScreenShot.png";
+import PomoDashboard from "../public/PomoDashboard.png";
 import PortfolioPhoto from "../public/PortfolioPhoto.png";
 import MainPhoto from "../public/MainPhoto.jpg";
 import ClientAndContactsPNG from "../public/ClientsAndContacts.png";
@@ -65,8 +65,9 @@ export default function Home() {
               src={ClientAndContactsPNG}
               alt="Multiple screenshots of the Clients & Contacts project in a grid"
               className="shadow-black shadow-2xl rounded-xl border-blue-950 border-4"
-              width={600}
-              height={"auto"}
+              width={700}
+              style={{ height: "400px", objectFit: "cover" }}
+              // height={"auto"}
               priority
             />
           </div>
@@ -103,28 +104,29 @@ export default function Home() {
         >
           <div className=" flex gap-6 m-10 justify-end max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
             <div className="bg-NAVY text-NAVY_T rounded-xl flex gap-6 flex-col pt-10 pb-20 px-20 max-[400px]:px-5 max-[400px]:py-5 max-[400px]:order-first">
-              <h1 className="text-2xl">A Clone of Etsy</h1>
+              <h1 className="text-2xl">Productive Pomodoro</h1>
               <ul className="flex justify-evenly flex-col h-[100%] text-md">
-                <li className="mb-2">React</li>
-                <li className="mb-2">React Router</li>
-                <li className="mb-2">Styled Components</li>
-                <ul>
-                  AWS
-                  <li>-Amplify</li>
-                  <li>-Cloudformation</li>
-                  <li>-DynamoDB</li>
-                  <li>-AWS SAM</li>
-                </ul>
+                <li>React</li>
+                <li>Github Copilot: Claude Sonnet 4.5</li>
+                <li>dnd-kit</li>
               </ul>
             </div>
             <Image
-              src={EtsyScreenShot}
+              src={PomoDashboard}
               alt="A screen shot of Matt's Etsy Clone Project"
-              className="shadow-black shadow-2xl rounded-xl border-blue-950 border-4"
+              className="shadow-black shadow-2xl rounded-xl border-blue-950 border-x-4"
               width={700}
               height={"auto"}
               priority
             />
+            {/* <Image
+              src={PomoTimer}
+              alt="A screen shot of Matt's Etsy Clone Project"
+              className="shadow-black shadow-2xl rounded-xl border-blue-950 border-x-4"
+              width={"auto"}
+              height={250}
+              priority
+            /> */}
           </div>
         </a>
         <div className="m-10 flex gap-6 max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
