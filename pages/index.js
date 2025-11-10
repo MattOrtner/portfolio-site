@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </a>
         <a
-          href="https://staging.d2yhpv0ems9pvt.amplifyapp.com"
+          href="https://productive-pomo.vercel.app/dashboard"
           target="_blank"
           rel="noopener noreferrer"
         >
