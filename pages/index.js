@@ -119,14 +119,6 @@ export default function Home() {
               height={"auto"}
               priority
             />
-            {/* <Image
-              src={PomoTimer}
-              alt="A screen shot of Matt's Etsy Clone Project"
-              className="shadow-black shadow-2xl rounded-xl border-blue-950 border-x-4"
-              width={"auto"}
-              height={250}
-              priority
-            /> */}
           </div>
         </a>
         <div className="m-10 flex gap-6 max-[400px]:grid max-[400px]:m-3 max-[400px]:gap-2">
