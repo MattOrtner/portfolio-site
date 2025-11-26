@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </a>
         <a
-          href="https://productive-pomo.vercel.app/dashboard"
+          href="https://productive-pomo.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
