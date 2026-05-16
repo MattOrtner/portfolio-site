@@ -8,13 +8,26 @@ const AboutSection = () => {
             perspective to my work. Instilled in me is a love for:
           </p>
           <br />
-          <ol>
-            <li>Attention to detail</li>
-            <li>Creativity</li>
-            <li>Collaboration</li>
-            <li>Communication</li>
-            <li>Curiosity</li>
-            <li>Discipline</li>
+          <ol className="flex flex-col gap-1 text-md list-none pl-0">
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Attention to
+              detail
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Creativity
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Collaboration
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Communication
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Curiosity
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-blue-500 font-bold">▸</span> Discipline
+            </li>
           </ol>
           <br />
           <p>
